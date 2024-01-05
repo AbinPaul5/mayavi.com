@@ -40,8 +40,22 @@ h2{
 p{
     color: #3F2E3E ;
 }
+a:hover{
+    background-color: yellow;
+    color: red;
+}
 footer{
     background-color: #DBCC95 ; 
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: #092635;
+}
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
 }
