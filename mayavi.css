@@ -1,21 +1,21 @@
 body{
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Salsa', cursive;
     font-size: 25px;
     line-height: 30px;
     
 }
 header{
-    background-color: peachpuff;
+    background-color: #C3E2C2;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 header h1{
-    color: red;
-    font-size: 50px;
-
-    
+    font-family: 'Rubik Maps', system-ui;
+    color: #092635;
+    font-size: 60px;
+    text-transform: uppercase;
 }
 header img{
     
@@ -23,9 +23,12 @@ header img{
     border: 10px solid snow;
 }
 main{
-    max-width: 800px;
+    background-color: #EAECCC;
+    max-width: auto;
+    text-align: left;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 0 5px 10px 10px;
+
 }
 main img{
     max-width: 100%;
@@ -34,6 +37,11 @@ h2{
     font-size: 35px;
 
 }
+p{
+    color: #3F2E3E ;
+}
 footer{
+    background-color: #DBCC95 ; 
     text-align: center;
+    font-size: 15px;
 }
