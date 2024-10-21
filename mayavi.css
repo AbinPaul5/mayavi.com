@@ -55,6 +55,20 @@ footer p{
 footer a{
     color: #092635;
 }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .e-card {
     margin: 100px auto;
     background: transparent;
@@ -143,6 +157,9 @@ footer a{
       transform: rotate(360deg);
     }
   }
+
+
+  
 footer a:hover{
     opacity: .5;
     background-color: transparent;
